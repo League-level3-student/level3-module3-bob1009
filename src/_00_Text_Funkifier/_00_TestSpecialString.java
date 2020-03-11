@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+	SpecialString meow=new jeferson("Corona is dumb");
+	System.out.println(meow);
+	assertEquals("bmud si anoroC", meow.toString());
 	}
 }
